@@ -24,7 +24,7 @@ const HeroSection = () => {
         </div>
       </section>
      
-           <section className="bg-white py-20">
+           <section className="bg-white py-20 mt-0">
         <div className="max-w-6xl mx-auto px-6 text-center">
           
           <h1 className="text-4xl font-bold text-gray-800 mb-3 text-shadow-lg">

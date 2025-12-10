@@ -28,6 +28,10 @@ const Navbar = () => {
       <div className="nav-right">
         <button className="demo-btn">Book a Demo</button>
       </div>
+
+      <div class="mobile-menu-toggle">
+        ☰ 
+    </div>
     </nav>
   );
 };
