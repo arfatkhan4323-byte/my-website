@@ -20,16 +20,16 @@ const Navbar = () => {
         <li><Link to="/services">Services</Link></li>
         <li><Link to="/company">Company</Link></li>
         <li><Link to="/pricing">Pricing</Link></li>
-        
         <li><Link to="/contact">Contact Us</Link></li>
-        <li>Customer Login</li>
+        <li><Link to="/customer">Customer Login</Link></li>
+       
       </ul>
 
       <div className="nav-right">
         <button className="demo-btn">Book a Demo</button>
       </div>
 
-      <div class="mobile-menu-toggle">
+      <div className="mobile-menu-toggle">
         ☰ 
     </div>
     </nav>

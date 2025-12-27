@@ -11,6 +11,8 @@ import Contact from "./pages/Contact";
 import Features from "./pages/Features";
 import Company from "./pages/Company";
 import Pricing from "./pages/Pricing";
+import Customer from "./pages/Customer";
+import Dashboard from "./pages/Dashboard";
 import "./index.css";
 
 
@@ -28,6 +30,9 @@ function App() {
          <Route path="/features" element={<Features />} />
          <Route path="/company" element={<Company />} />
          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/customer" element={<Customer />} />
+        
+          <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
 
